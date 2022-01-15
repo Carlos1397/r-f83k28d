@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <span className="value">{count}</span>
-        <button  id="inc" onClick={() => this.setState({ count: count + 1 })}>Incrementa</button>
+        <button className='button' id="inc" onClick={() => this.setState({ count: count + 1 })}>Incrementa</button>
       </div>
     );
   }

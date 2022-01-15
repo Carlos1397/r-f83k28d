@@ -8,6 +8,13 @@ button {
   font-size: 18px;
   padding: 10px 20px;
 }
-inc {
-  background-color: #4CAF50;
+.button {
+  background-color: #008CBA; 
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
