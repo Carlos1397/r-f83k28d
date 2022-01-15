@@ -4,14 +4,14 @@ import './App.css';
 class App extends Component {
 
   state = {
-    count: 00
+    count: 0
   }
   render() {
     const count = this.state.count
     return (
       <div>
         <span className="value">{count}</span>
-        <button id="inc" onClick={() => this.setState({ count: count + 1 })}>Incrementa</button>
+        <button  id="inc" onClick={() => this.setState({ count: count + 1 })}>Incrementa</button>
       </div>
     );
   }
